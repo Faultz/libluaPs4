@@ -135,6 +135,7 @@ xcopy /I /Y "$(SCE_ORBIS_SDK_DIR)\target\sce_module\libSceFios2.prx" "$(ProjectD
     <ClCompile Include="lmem.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">CompileAsC</CompileAs>
     </ClCompile>
+    <ClCompile Include="loadlib.c" />
     <ClCompile Include="lobject.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|ORBIS'">CompileAsC</CompileAs>
     </ClCompile>
@@ -205,6 +206,7 @@ xcopy /I /Y "$(SCE_ORBIS_SDK_DIR)\target\sce_module\libSceFios2.prx" "$(ProjectD
     <ClInclude Include="ltable.h" />
     <ClInclude Include="ltm.h" />
     <ClInclude Include="lua.h" />
+    <ClInclude Include="lua.hpp" />
     <ClInclude Include="luac.h" />
     <ClInclude Include="luaconf.h" />
     <ClInclude Include="lualib.h" />
