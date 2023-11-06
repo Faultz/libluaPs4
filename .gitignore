@@ -21,3 +21,6 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+/libLua/sce_module
+/libLua/.vs/libLua
+/libLua/ORBIS_Debug
