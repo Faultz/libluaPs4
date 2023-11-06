@@ -22,9 +22,9 @@
 
 
 #ifdef LIBRARY_IMPL
-#define PRX_INTERFACE __declspec(dllexport)
+#define __declspec(dllexport)
 #else
-#define PRX_INTERFACE __declspec(dllimport)
+#define __declspec(dllimport)
 #endif
 
 #endif
